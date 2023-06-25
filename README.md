@@ -24,3 +24,37 @@ ASSINAR: string que representa a operação no qual o servidor deve responder um
 TOPICO: string que representa uma chave para identificar um valor.
 
 Altere o código Servidor.java e defina um Dictionary para representar os tópicos e seus respectivos valores. Passe esse dicionário como argumento para a classe TrataCliente.java para que você consigna armazenar/alterar (dicionario.put(“TOPICO”, “VALOR”)) um tópico, ou consultar (dicionario.get(“TOPICO”)).
+
+
+
+Siga as instruções abaixo para realizar o teste:
+
+1. Navegue até o diretório onde se encontra a pasta "Sockets" com as classes principais: Main, ClienteSensor, ClienteAtuador e Servidor.
+
+2. Abra o terminal do seu sistema operacional nesse diretório.
+
+3. Execute o seguinte comando para iniciar o arquivo "Main.py":
+```
+python Main.py
+```
+Isso iniciará o servidor e os clientes.
+
+4. Abra um novo terminal.
+
+5. Execute o seguinte comando para iniciar o arquivo "ClienteSensor.py":
+```
+python ClienteSensor.py
+```
+Isso iniciará o cliente do sensor.
+
+6. Abra outro terminal.
+
+7. Execute o seguinte comando para iniciar o arquivo "ClienteAtuador.py":
+```
+python ClienteAtuador.py
+```
+Isso iniciará o cliente do atuador.
+
+
+No ClienteAtuador você terá a saída "Fechando a Cortina" ou a saída "Abrindo a Cortina"
+
